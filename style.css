@@ -25,7 +25,7 @@
     border-radius: 50%;
 }
 a:link{
-    text-decoration: none;   
+    text-decoration: none;
 }
 a:hover{
     text-decoration: underline;
@@ -44,17 +44,16 @@ footer{
     background-color: rgb(38, 38, 38);
     color: white;
     margin-top: 10px;
-
-    
+}
+form{
+    margin: 6px 0;
 }
 .social-icons-area{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding: 20px;
-    width: 100%;
-    height: 50px;
-    column-gap: 5px;
+    height: fit-content;
+    column-gap: 10px;
 }
 .social-icons-area img{
     height: 30px;
@@ -68,6 +67,13 @@ footer{
     background-color: var(--white-2);
     border-radius: 10px;
     margin: 10px 0px;
+}
+
+.check_and_button-area{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 aside{
     background-color: var(--white-1);
@@ -84,6 +90,16 @@ main{
 .container{
     margin-top: 20px;
 }
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 8%;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+footer p{
+    margin: 0px;
+}
 
 @media screen and (max-width: 576px){
     .carousel{
@@ -91,5 +107,14 @@ main{
     }
     .navbar button{
         display: none;
+    }
+    .perfil{
+        margin: 0 auto;
+    }
+    aside{
+        background-color: white;
+    }
+    .link-area{
+        background-color:var(--white-1);
     }
 }
