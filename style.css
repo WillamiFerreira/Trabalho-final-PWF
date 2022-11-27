@@ -136,4 +136,8 @@ img{
     .link-area{
         background-color:var(--white-1);
     }
+    table{
+        font-size: small;
+        
+    }
 }
