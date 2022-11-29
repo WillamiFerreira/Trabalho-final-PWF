@@ -64,10 +64,11 @@ form{
 }
 .social-icons-area{
     display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    height: fit-content;
+    position: relative;
+    top: 20%;
+    left: 40%;
     column-gap: 10px;
+    width: fit-content;
 }
 .social-icons-area img{
     height: 30px;
@@ -103,15 +104,15 @@ main{
     border-radius: 5px;
 }
 footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0 8%;
     align-items: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
 }
-footer p{
-    margin: 0px;
-}
+
 article{
     margin: 10px 0;
 }
